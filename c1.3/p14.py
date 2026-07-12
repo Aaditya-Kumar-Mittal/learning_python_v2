@@ -1,0 +1,7 @@
+palindromeList = [1,2,3,4,3,2,1]
+
+print("Original List:", palindromeList)
+
+isListAPalindrome = palindromeList == palindromeList[::-1]
+
+print("Is the list a palindrome?", isListAPalindrome)
